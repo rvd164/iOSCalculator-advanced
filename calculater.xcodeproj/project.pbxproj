@@ -12,6 +12,8 @@
 		FD5A59052010D13D003F0CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A59032010D13D003F0CB2 /* Main.storyboard */; };
 		FD5A59072010D13D003F0CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5A59062010D13D003F0CB2 /* Assets.xcassets */; };
 		FD5A590A2010D13D003F0CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A59082010D13D003F0CB2 /* LaunchScreen.storyboard */; };
+		FD6C0FE220178F1500B1EB99 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C0FE120178F1500B1EB99 /* ViewController2.swift */; };
+		FDC7D37A2018CA240012BB53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7D3792018CA240012BB53 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		FD5A59062010D13D003F0CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5A59092010D13D003F0CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD5A590B2010D13D003F0CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6C0FDE20171F0100B1EB99 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD6C0FE120178F1500B1EB99 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FDC7D3792018CA240012BB53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +59,25 @@
 		FD5A58FE2010D13D003F0CB2 /* calculater */ = {
 			isa = PBXGroup;
 			children = (
+				FD6C0FE32017905F00B1EB99 /* VC */,
 				FD5A58FF2010D13D003F0CB2 /* AppDelegate.swift */,
-				FD5A59012010D13D003F0CB2 /* ViewController.swift */,
+				FD6C0FDE20171F0100B1EB99 /* MyPlayground.playground */,
 				FD5A59032010D13D003F0CB2 /* Main.storyboard */,
 				FD5A59062010D13D003F0CB2 /* Assets.xcassets */,
 				FD5A59082010D13D003F0CB2 /* LaunchScreen.storyboard */,
 				FD5A590B2010D13D003F0CB2 /* Info.plist */,
 			);
 			path = calculater;
+			sourceTree = "<group>";
+		};
+		FD6C0FE32017905F00B1EB99 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A59012010D13D003F0CB2 /* ViewController.swift */,
+				FD6C0FE120178F1500B1EB99 /* ViewController2.swift */,
+				FDC7D3792018CA240012BB53 /* DetailViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +106,9 @@
 		FD5A58F42010D13D003F0CB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Stepan;
@@ -138,6 +157,8 @@
 			files = (
 				FD5A59022010D13D003F0CB2 /* ViewController.swift in Sources */,
 				FD5A59002010D13D003F0CB2 /* AppDelegate.swift in Sources */,
+				FD6C0FE220178F1500B1EB99 /* ViewController2.swift in Sources */,
+				FDC7D37A2018CA240012BB53 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
