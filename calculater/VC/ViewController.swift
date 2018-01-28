@@ -89,7 +89,7 @@ class ViewController: UIViewController {
 
         }
         
-        currentTextTyping.text = currentTextTyping.text + sender.currentTitle!
+  //      currentTextTyping.text = currentTextTyping.text + sender.currentTitle!
         math()
     }
 //
